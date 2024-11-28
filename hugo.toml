@@ -1,4 +1,15 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rust-atx.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Rust ATX'
 theme = "terminal"
+
+[languages]
+  [languages.en]
+    title = "Rust ATX"
+    subtitle = "Rust ATX"
+    keywords = "rust, atx, rustlang, austin, texas"
+    copyright = ""
+
+    [languages.en.params.logo]
+      logoText = "Rust ATX"
+      logoHomeLink = "/"
